@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Heading{
+    margin: 15px;
+    text-align: center;
+}
+
+.container{
+    margin: 10px auto;
+    width:600px;
+    border: 2px solid black;
+    height: 570px;    
+    text-align: center;
+    background-color: rgb(116, 112, 112);
+    border-radius: 15px;
+}
+
+input[name = "screen"]{
+    width:480px;
+    height: 80px;
+    margin-top:30px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+table{
+    margin: 20px auto;
+}
+
+button{
+    font-size: 40px;
+    width:110px;
+    height: 70px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.clear{
+    background-color: palevioletred;
+    color: white;
+}
+
+.evaluate{
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+
